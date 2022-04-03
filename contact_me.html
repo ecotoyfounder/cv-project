@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, portfolio, css, web" />
+    <meta name="description" content="Why I do it?" />
+    <title>CV Pavel Volkov</title>
+    <link rel="stylesheet" href="selectors.css" />
+    <link rel="icon" href="imgs/Ecotoy_flav_v.svg" type="image/x-icon" />
+  </head>
+  <body class="body">
+    <div class="contact_btn">
+      <a href="/index.html" target="_blank" data-info="Home" class="btn_help">
+        <input
+          type="submit"
+          value=""
+          style="background-image: url(imgs/Home_v.svg)"
+          class="prof_networks"
+        />
+      </a>
+    </div>
+    <header class="header">
+      <button class="toggle-theme"></button>
+      <div>
+        <img src="imgs/photo_cv.png" alt="My photo" class="avatar_contact" />
+      </div>
+      <div class="info">
+        <h2>Write me something</h2>
+      </div>
+    </header>
+    <form action="/">
+      <div class="your_info">
+        <div>
+          <label for="text">Your Name:</label>
+          <input type="text" id="text" placeholder="Enter your name:" />
+        </div>
+        <div>
+          <label for="email">Your E-mail:</label>
+          <input type="email" id="email" placeholder="Enter your @mail:" />
+        </div>
+      </div>
+      <div class="write_me">
+        <label for="message">Your message:</label>
+        <textarea
+          name="Your message:"
+          id="message"
+          cols="33"
+          rows="5"
+          placeholder="Enter your message:"
+        ></textarea>
+      </div>
+      <button class="send_btn">
+        <input type="submit" value="Send" />
+      </button>
+    </form>
+    <br />
+    <!-- <footer class="article">
+      <p class="p_footer">Hi! I'm a Footer! Design has not trifles!</p>
+    </footer> -->
+
+    <script src="/index.js"></script>
+  </body>
+</html>
