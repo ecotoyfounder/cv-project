@@ -27,6 +27,7 @@ h2 {
   border: none;
   background-image: var(--toggle-bg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .toggle-theme:hover {
