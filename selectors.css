@@ -242,9 +242,43 @@ h2 {
 }
 
 .my_skills {
-  width: 800px;
+  width: 880px;
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
+}
+
+.my_skills .grafics {
+  width: 50%;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.my_skills .frontend {
+  width: 50%;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 880px) {
+  .my_skills {
+    display: block;
+    width: 440px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .my_skills {
+    width: 100%;
+    display: block;
+    transform: scale(0.8);
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .prof_skills {
@@ -309,6 +343,22 @@ h2 {
   display: inline-block;
   padding: 10px 30px;
   margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .container li {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .container ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 30px;
+  }
 }
 
 .my_languages {
